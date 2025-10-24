@@ -4,12 +4,12 @@ import os
 import matplotlib.pyplot as plt
 
 # SIMPLE CALL CENTER SIMULATION 
-# ------------------------------------------------------------
+# -----------------------------------------------------------
 # This program simulates a call center with a few agents.
 # Customers call randomly, and each call takes some time to complete.
 # If all agents are busy, the customer must wait in a queue.
 # The goal: See how waiting time changes when we increase the number of agents.
-# ------------------------------------------------------------
+# -----------------------------------------------------------
 
 def simulate_time_stepped(num_agents, arrival_prob_per_dt, service_time_range, sim_time=2000, dt=1):
     """
