@@ -1,4 +1,4 @@
-# 📞 Call Center Simulation (Python)
+Call Center Simulation (Python)
 
 This project simulates a simple call center system using Python.  
 It models how customer waiting time and queue length change when the number of agents increases.  
@@ -6,7 +6,7 @@ The simulation is built using time-stepped logic (1 second per step) and visuali
 
 ---
 
-## 🎯 Project Goal
+Project Goal
 
 To study how staffing levels affect:
 
@@ -17,7 +17,7 @@ To study how staffing levels affect:
 
 ---
 
-## 🧩 How It Works
+How It Works
 
 - Each second, there’s a chance a new call arrives (based on probability).  
 - Each call takes a random time (3–7 seconds) to complete.  
@@ -60,4 +60,5 @@ avg_wait=0.02s, max_queue=3, throughput=649, utilization=40.6%
 
 Running 5_agents...
 avg_wait=0.01s, max_queue=2, throughput=647, utilization=32.2%
+
 
