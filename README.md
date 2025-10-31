@@ -34,7 +34,7 @@ To study how staffing levels affect:
 
 | Parameter | Description | Example |
 |------------|--------------|----------|
-| `num_agents` | Number of working agents | 3, 4, or 5 |
+| `num_agents` | Number of working agents | 3, 4, 5 |
 | `arrival_prob_per_dt` | Chance a new call arrives each second | 0.5 |
 | `service_time_range` | Time a call takes (seconds) | (3, 7) |
 | `sim_time` | Total simulation duration (seconds) | 2000 |
@@ -60,6 +60,7 @@ avg_wait=0.02s, max_queue=3, throughput=649, utilization=40.6%
 
 Running 5_agents...
 avg_wait=0.01s, max_queue=2, throughput=647, utilization=32.2%
+
 
 
 
