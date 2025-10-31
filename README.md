@@ -10,10 +10,10 @@ The simulation is built using time-stepped logic (1 second per step) and visuali
 
 To study how staffing levels affect:
 
-- ⏳ Average waiting time  
-- 👥 Queue length  
-- 📈 Throughput (calls served)  
-- ⚙️ Agent utilization  
+-  Average waiting time  
+-  Queue length  
+-  Throughput (calls served)  
+-  Agent utilization  
 
 ---
 
@@ -60,6 +60,7 @@ avg_wait=0.02s, max_queue=3, throughput=649, utilization=40.6%
 
 Running 5_agents...
 avg_wait=0.01s, max_queue=2, throughput=647, utilization=32.2%
+
 
 
 
